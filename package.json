@@ -1,0 +1,21 @@
+{
+  "name" : "marcus",
+  "version" : "0.1.0",
+  "main" : "main.js",
+   "description": "discord bot.",
+  "license": "mit",
+  
+  "scripts" : {
+    "prestart": "npm install discordie",
+    "start" : "node main.js"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucek666/brooke.git"
+},
+  
+  "engines" : {
+    "node" : ">=4.0.0"
+  }
+}
