@@ -178,7 +178,7 @@ client.Dispatcher.on("MESSAGE_CREATE", e => {
      //   e.message.channel.sendMessage("Don't bother me, I'm too busy at idling in downtown.");
 
 
-    }
+//    }
 
 //if (e.message.content === "tips"){
  //       var eightball = ["Improved Flamethrower is your best friend when comes to dealing with big amount of low HP enemies. Oh it's also perfect for your local Barbeque.","Going to visit Toxic Caves? You better find some Rubber Boots first!","Going to Glow? Withouth Rad-X you will melt in seconds. Always have anti-radiation drugs when going there. Oh also a gun will be handy.", "In addition to aiming at your enemies, some weapons can also aim at hexes. For example Rocket Launcher can blow doors! To enter hex aiming mode press CTRL while having attack coursor.","Necropolis? More like PKpolis. Warehouse? Nah it's actually Slaughterhouse. Never venture into dungeons withouth friends as enemy players will lurk there.","You enjoy special encounters? Consider walking. You will never hit special encounter whileusing a car.",
