@@ -30,7 +30,7 @@ client.Dispatcher.on("MESSAGE_CREATE", e => {
 
 
     if (e.message.content === "hello") {
-        e.message.channel.sendMessage("Nice to see you " + e.message.author.nickMention + " !");
+        e.message.channel.sendMessage("Hi " + e.message.author.nickMention + " ! Have a seat!");
     
     } else if (e.message.content === "hi") {
         e.message.channel.sendMessage("Hello mighty " + e.message.author.nickMention + " !");
