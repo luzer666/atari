@@ -12,10 +12,6 @@ var Discordie = require("discordie");
 var client = new Discordie({autoReconnect: true});
 
 
-// var game = {name: "FOnline 2"};
-// var streamingGame = {type: 1, name: "something", url: ""};
-
-// client.User.setGame(game);
 
 client.connect({
     token: "MzQ5Nzk0NjE3MDQ0MTA3Mjc0.DH6_PQ.iQDFdOP84KRQMQKKHzZigTW1WNI"
