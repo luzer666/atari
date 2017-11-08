@@ -14,7 +14,7 @@ var client = new Discordie({autoReconnect: true});
 
 
 client.connect({
-    token: "MzMyNTMwODUyNDM5MzkyMjY4.DNpZJw.iXh-C6Qd8W-q9n-pMRxe3Gk4dRA"
+    token: "MzMyNTMwODUyNDM5MzkyMjY4.DOQ9Mg.C9iDz-edy9AlXkDQ440NpKAiA7o"
 });
 
 client.Dispatcher.on("GATEWAY_READY", e => {
