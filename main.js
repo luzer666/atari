@@ -13,9 +13,7 @@ var client = new Discordie({autoReconnect: true});
 
 
 
-client.connect({
-    token: "MzMyNTMwODUyNDM5MzkyMjY4.DrynHg.RkygPK6TTTqFtnx8QDJf7-9p_SE"
-});
+
 
 client.Dispatcher.on("GATEWAY_READY", e => {
     console.log("Username: " + client.User.username);
