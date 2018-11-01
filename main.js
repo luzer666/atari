@@ -5,7 +5,7 @@ http.createServer(function(request, response){
   response.write('Hello Node JS Server Response');
   response.end( );
 
-}).listen(8080);
+server.listen(8080);
 
 
 var Discordie = require("discordie");
