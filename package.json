@@ -3,7 +3,7 @@
   "version" : "0.1.0",
   "main" : "main.js",
    "description": "discord bot.",
-  "license": "mit",
+  "license": "UNLICENSED",
   
   "scripts" : {
     "prestart": "npm install discordie",
