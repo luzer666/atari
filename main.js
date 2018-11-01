@@ -13,7 +13,9 @@ var client = new Discordie({autoReconnect: true});
 
 
 
-
+client.connect({
+    process.env["token"]
+});
 
 client.Dispatcher.on("GATEWAY_READY", e => {
     console.log("Username: " + client.User.username);
