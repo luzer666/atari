@@ -92,4 +92,3 @@ if (e.message.content === "!joke"){
 
 
 });
-tok
