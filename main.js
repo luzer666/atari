@@ -12,7 +12,7 @@ var Discordie = require("discordie");
 var client = new Discordie({autoReconnect: true});
 var token = process.env["TOKEN"]
 
-client.connect(TOKEN);
+client.connect(token);
 
 client.Dispatcher.on("GATEWAY_READY", e => {
     console.log("Username: " + client.User.username);
