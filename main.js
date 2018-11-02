@@ -13,9 +13,7 @@ var client = new Discordie({autoReconnect: true});
 const token = process.env.TOKEN;
 
 
-client.connect({
-   process.env.TOKEN;
-});
+client.connect(token);
 
 client.Dispatcher.on("GATEWAY_READY", e => {
     console.log("Username: " + client.User.username);
@@ -94,3 +92,4 @@ if (e.message.content === "!joke"){
 
 
 });
+tok
