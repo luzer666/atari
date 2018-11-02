@@ -10,10 +10,10 @@ http.createServer(function(request, response){
 
 var Discordie = require("discordie");
 var client = new Discordie({autoReconnect: true});
-var token = process.env["TOKEN"]
 
+const {TOKEN} = process.env;
 
-client.connect(token);
+client.connect(TOKEN);
 
 client.Dispatcher.on("GATEWAY_READY", e => {
     console.log("Username: " + client.User.username);
