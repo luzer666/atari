@@ -10,8 +10,7 @@ http.createServer(function(request, response){
 
 var Discordie = require("discordie");
 var client = new Discordie({autoReconnect: true});
-require('dotenv').load();
-const {TOKEN} = process.env;
+var token = process.env["TOKEN"]
 
 client.connect(TOKEN);
 
