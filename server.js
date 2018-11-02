@@ -5,4 +5,4 @@ http.createServer(function(request, response){
   response.write('Hello Node JS Server Response');
   response.end( );
 
-}) server.listen(8080);
+}).listen(8080);
