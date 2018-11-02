@@ -14,7 +14,7 @@ const token = process.env.TOKEN;
 
 
 client.connect({
-    token
+    
 });
 
 client.Dispatcher.on("GATEWAY_READY", e => {
